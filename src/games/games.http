@@ -1,1 +1,12 @@
 GET http://localhost:3000/games/
+
+###
+POST http://localhost:3000/games/
+Content-Type: application/json
+
+{
+    "gameName": "Free Fire2",
+    "urlImage" : "https://play-lh.googleusercontent.com/1wE91ae_1YIJtIjQ1YJz5RhAajxEpF1TfrXGg7tcrKl90MOnF7XdFj71pw_MSQbyhM5PYz-eRdeBFQBzSGrV=w240-h480-rw",
+    "rating": 0,
+    "review": "Free fire é um jogo mundo aberto"
+}
